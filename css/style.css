@@ -90,3 +90,41 @@ button{
 /* -header ------------------------------------------FINE------------------------------------------------------- */
 
 
+
+
+
+
+
+
+
+/* -footer ------------------------------------------------------------------------------------------------------ */
+/* *navrbar footer ----------------------------------------------- */
+
+
+/* si usa in combinazione con navbar per creare quella presenta nel footer */
+.bottom{
+    color: white;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    font-size: 20px;
+    margin: 1rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.list{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+/* *navbar footer ------------------------------------------------ */
+/* -footer -------------------------------------------FINE-------------------------------------------------------- */
