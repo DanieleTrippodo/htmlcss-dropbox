@@ -74,7 +74,6 @@ button{
     height: 32px;
 
     align-self: center;
-    padding-left: 2rem;
 }
 
 .link-utili{
@@ -84,7 +83,7 @@ button{
     justify-content: center;
     align-items: center;
 
-    gap: 30px;
+    gap: 2.8rem;
     margin: 24px;
 }
 /* *navbar ------------------------------------------------ */
