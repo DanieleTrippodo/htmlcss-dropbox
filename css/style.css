@@ -1,0 +1,93 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* CSS RESET */
+
+
+
+
+/* + Font comune per tutta la pagina */
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+/* todo BOTTONI ------------------------------------------ */
+
+button{   
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+
+    color: white;
+    background-color: grey;
+    border: none;
+    
+
+    /* dimensione standard di tutti i bottoni */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.blu{
+    background-color: #0066b8;
+}
+/* todo BOTTONI FINE --------------------------------------- */
+
+
+
+
+
+
+/* -header ----------------------------------------------------------------------------------------------------- */
+/* *navbar ----------------------------------------------- */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+
+    width: 100%;                        /* *dimensioni della navbar */
+    height: auto;                          /* *<---------------- */
+    background-color: grey;       /* todo cambiare il colore il bianco, una volta finito */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* dimensione del logo nella navbar */
+#main-logo {
+    width: auto;
+    height: 32px;
+
+    align-self: center;
+    padding-left: 2rem;
+}
+
+.link-utili{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    margin: 24px;
+}
+/* *navbar ------------------------------------------------ */
+/* -header ------------------------------------------FINE------------------------------------------------------- */
+
+
