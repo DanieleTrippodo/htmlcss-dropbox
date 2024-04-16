@@ -18,10 +18,17 @@ html{
 
 li{
     list-style-type: none;
+    padding-top: 1rem;
 }
 
 
-
+.sezione-abbonamenti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
 
 
 /* todo BOTTONI ------------------------------------------ */
