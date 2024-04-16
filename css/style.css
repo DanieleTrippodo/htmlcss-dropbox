@@ -45,6 +45,13 @@ button{
 .blu{
     background-color: #0066b8;
 }
+
+.large{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 /* todo BOTTONI FINE --------------------------------------- */
 
 
@@ -130,18 +137,110 @@ button{
 
 
 
+/* + per impostare un elemento dentro una flexbox al centro del flex container! */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* extra */
+    justify-content: space-evenly;
+}
 
 
+.title2{
+    font-size: 34px;
+    margin: 1rem;
+    margin-left: 0;
+    margin-bottom: 2rem;
+}
+
+.title-small{
+    font-size: 15px;
+}
 
 
 
 .plans{
     display: flex;
-    gap: 3rem;
 }
 
 section.subscription-plans > input {
     margin: 0;
+}
+
+
+
+.Trova-Partner{
+    width: 100%;
+
+
+    display: flex;
+    max-width: 1250px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#partnerphoto{
+    width: 30%;
+    margin-right: 2rem;
+}
+
+
+.centered-in-a-box{
+    display: flex;
+    margin: auto;
+}
+
+
+
+
+
+/* + Category PLAN---------------------------------------------------------- */
+.category {
+    display: flex;
+    border: 1px grey solid;
+    max-width: 18rem;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.category-user{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.category-box {
+    border: 1px grey solid;
+    display: flex;
+    max-width: 18rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: .5rem;
+    flex-direction: column;
+
+    max-height: 1200px;   /* ! controllare questa funzione se è da cambiare una volta aggiunti tutti e 3 gli elementi */
+}
+
+
+.category-title-box{
+    padding: 2rem;
+}
+
+
+.category-pro {
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    font-size: 14px;
 }
 /* -main FINE---------------------------------------------------------------------------------------------------- */
 
@@ -161,8 +260,7 @@ section.subscription-plans > input {
     align-items: center;
 
     /* spazio ai lati del footer */
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding: 7rem;
 }
 
 .title{
