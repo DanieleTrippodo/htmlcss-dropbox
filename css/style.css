@@ -22,13 +22,9 @@ li{
 }
 
 
-.sezione-abbonamenti {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: flex-start;
-    flex-wrap: nowrap;
-}
+
+
+
 
 
 /* todo BOTTONI ------------------------------------------ */
@@ -58,6 +54,27 @@ button{
     padding-right: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.secondary-button{
+    border: gray 2px solid;
+    background-color: white;
+    margin: .9rem;
+    color: black;
+}
+
+
+.fixed-position{
+    margin: 1.8rem;
+}
+
+
+#ask-for-a-price{
+    display: flex;
+}
+
+.no-left-margin{
+    margin-left: 0;
 }
 /* todo BOTTONI FINE --------------------------------------- */
 
@@ -95,7 +112,7 @@ button{
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 
     gap: 2.8rem;
     margin: 24px;
@@ -155,6 +172,26 @@ button{
 }
 
 
+
+/* !!!!! TESTING THIS !!!!! */
+.side{
+    display: flex;
+
+
+
+
+    /* testing this */
+    border: black 1px solid;
+
+    width: 80rem;
+    height: 5rem;
+    /* testing this */
+}
+
+
+
+
+
 .title2{
     font-size: 34px;
     margin: 1rem;
@@ -173,13 +210,14 @@ button{
 }
 
 section.subscription-plans > input {
-    margin: 0;
+    margin: auto;
 }
 
 
 
 .Trova-Partner{
     width: 100%;
+    margin: auto;
 
 
     display: flex;
@@ -191,9 +229,23 @@ section.subscription-plans > input {
     flex-direction: row;
 }
 
-#partnerphoto{
-    width: 30%;
-    margin-right: 2rem;
+
+.desc-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 25%;
+}
+
+
+
+#partnerphoto {
+    width: 40%;
+    margin-right: 3rem;
+
+    padding-top: 7rem;
 }
 
 
@@ -249,6 +301,53 @@ section.subscription-plans > input {
     align-content: flex-start;
     font-size: 14px;
 }
+
+
+.sezione-abbonamenti {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+/* + Category PLAN-----------------------FINE--------------------------------- */
+
+
+
+
+
+
+
+
+/* todo new category horizontal------------------------------------------------- */
+.category-horizontal {
+    display: flex;
+    border: gray 1px solid;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.category-box-horizontal {
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    border: gray 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.category-user-horizontal{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
 /* -main FINE---------------------------------------------------------------------------------------------------- */
 
 
