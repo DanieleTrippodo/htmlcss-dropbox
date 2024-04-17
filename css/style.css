@@ -207,6 +207,7 @@ button{
 
 .plans{
     display: flex;
+    gap: 1rem;
 }
 
 section.subscription-plans > input {
@@ -218,6 +219,7 @@ section.subscription-plans > input {
 .Trova-Partner{
     width: 100%;
     margin: auto;
+    margin-bottom: 7rem;
 
 
     display: flex;
@@ -319,6 +321,26 @@ section.subscription-plans > input {
 
 
 
+.choose-box{
+    display: flex;
+    max-width: 670px;
+    justify-content: center;
+    margin-left: 24%;
+}
+
+.choose-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 675px;
+
+
+    padding-top: 4rem;
+}
+
+
+
+
 /* todo new category horizontal------------------------------------------------- */
 .category-horizontal {
     display: flex;
@@ -348,6 +370,28 @@ section.subscription-plans > input {
     margin-top: 1rem;
 }
 
+
+.no-bottom{
+    border-bottom: none;
+}
+
+.no-top{
+    border-top: none;
+}
+
+
+.row-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.border-space{
+    padding-left: 2rem;
+    max-width: 620px;
+    padding-bottom: 2rem;
+}
 /* -main FINE---------------------------------------------------------------------------------------------------- */
 
 
@@ -390,3 +434,9 @@ section.subscription-plans > input {
 
 /* *navbar footer ------------------------------------------------ */
 /* -footer -------------------------------------------FINE-------------------------------------------------------- */
+
+
+
+
+
+

@@ -60,12 +60,7 @@
 
 
 
-
-
-
-
-
-    <!-- -main -->
+    <!-- -main-------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <main>
 
 
@@ -83,28 +78,35 @@
         <!-- *Fine JUMBOTRON -->
 
 
+        <!-- #Sezione abbonamenti tra annuali e mensili -->
+        <section class="subscription-plans">  
+            
+            <section class="choose-box">
+                <section class="choose-plan">
+                    <h1 class="title2">Trova il piano business che fa per te</h1>
 
+                    <form class="plans">
 
+                        <div>
+                            <input type="radio" id="opzione1" name="opzioni" checked>
+                            <label for="opzione1">Fatturazione mensile</label>
+                        </div>
 
+                        <br>
 
-
-
-        <section class="subscription-plans">   <!-- todo DA RIVEDERE LA PROPRIETÀ FLEX DI QUESTA CLASSE -->
-            <h1 class="title2">Trova il piano business che fa per te</h1>
-
-            <form class="plans">
-                <input type="radio" id="opzione1" name="opzioni" checked>
-                <label for="opzione1">Fatturazione mensile</label>
-
-                <br>
-                <input type="radio" id="opzione2" name="opzioni">
-                <label for="opzione2">Fatturazione annuale</label>
-            </form>
-
+                        <div>
+                            <input type="radio" id="opzione2" name="opzioni">
+                            <label for="opzione2">Fatturazione annuale</label>
+                        </div>
+                    </form>
+                </section>
+        </section>
 
 
             <!-- todo Sezione con i 3 tipi di abbonamento -->
             <article class="sezione-abbonamenti">
+
+                <!-- # seri di abbonamenti in colonna -->
                 <!-- + PRIMO ABBONAMENTO -->
                 <section>
                     <div class="category">
@@ -217,35 +219,35 @@
                     </div>
                 </section> <!-- Terzo abbonamento -->
             </article> 
-        </section>      
+
+            <!-- # serie di abbonamenti in orizzontale -->
+            <!-- + QUARTO ABBONAMENTO  -->
+            <section>
+                <div class="category-horizontal">
+                    <i class="fa-solid fa-building-user"></i>
+                    <h4>Team</h4>
+                </div>
 
 
+                <div class="category-box-horizontal no-bottom">
+                    <h2 class="category-user-horizontal">Enterprise</h2>            
+                    <button class="blu large fixed-position"> Contatta l'ufficio vendite </button>
+                </div>     
 
 
+                 <div class="category-box-horizontal no-top row-box">
+                    <div class="border-space">
+                        <h3>Contatta l'ufficio vendite</h3>
+                        <br>
+                        <p>Soluzioni presonalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                    </div>
+                </div>
+            </section> <!-- Quarto abbonamento in orizzontale -->
+        </section>
 
-<!-- + QUARTO ABBONAMENTO  -->
-<section>
-
-    <div class="category-horizontal">
-        <i class="fa-solid fa-building-user"></i>
-        <h4>Team</h4>
-    </div>
-
-
-    <div class="category-box-horizontal">
-        <h2 class="category-user-horizontal">Enterprise</h2>            
-        <button class="blu large fixed-position"> Contatta l'ufficio vendite </button>
-
-<!-- todo DA CONTINUARE! -->
-        
-    </div>
-
-</section>
         <!-- * FINE sezione abbonamenti---------------------------------------------------------------------------------------------------------- -->
 
-
-
-
+        <!-- # immagine a sinistra con testo a destra -->
         <section class="Trova-Partner">             <!-- !FLEX CONTAINER -->
             <img src="./img/partner.png" alt="partnerphoto" id="partnerphoto">
             
@@ -262,7 +264,9 @@
 
 
         
-
+    <!-- ! panello a 3 righe di info -->
+    
+    
 
 
 
@@ -273,7 +277,7 @@
 
 
     </main>
-    <!-- -main FINE -->
+    <!-- -main-------------------------------------------------------------------------------FINE--------------------------------------------------------------------------- -->
 
 
 
