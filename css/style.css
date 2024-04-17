@@ -533,7 +533,7 @@ section.subscription-plans > input {
     transform: translate(-50%, -50%); /* Sposta l'immagine al centro */
 }
 
-.green-bg, .dark-red-bg {
+.green-bg {
     position: relative; /* Perché l'immagine abbia una posizione relativa */
     padding-bottom: calc(100% - 20px); /* Altezza del cubo - 20px per il padding */
 }
@@ -565,3 +565,32 @@ section.subscription-plans > input {
     background-color: rgb(149, 236, 149);
     border: rgb(190, 236, 190) 4px solid;
 }
+
+/* !--------------------------QUADRATO------------FINE----------------------------------- */
+
+
+
+/* # slogna box */
+.slogan-box {
+    background-color: #add8e6; /* Blu chiaro */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.content {
+    text-align: center;
+}
+
+h2, p {
+    margin: 0;
+}
+/* # slogna box  ------ FINE */
+
+
+
+
