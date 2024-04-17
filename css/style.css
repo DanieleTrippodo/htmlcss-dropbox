@@ -439,4 +439,129 @@ section.subscription-plans > input {
 
 
 
+.flex-container-info {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 111%; */
+    align-items: center;
 
+    gap: 4rem;
+    margin-left: 21%;
+    margin-right: 12%;
+}
+
+.flex-item-info {
+    width: 25.33%;
+    padding: 10px;
+    box-sizing: border-box; /* così padding non aumenta la larghezza degli elementi */
+}
+
+.flex-item-info img {
+    width: 100%;
+}
+
+.flex-item h3 {
+    margin-top: 10px;
+}
+
+.flex-item-info p {
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+
+
+.margin-left {
+    margin-left: 24rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+.container-center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-start-line{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 43rem;
+    font-size: 35px;
+}
+
+
+
+
+/* !--------------------------QUADRATO------------------------------------------------ */
+.cube {
+    display: flex;
+}
+
+
+.left, .middle, .right {
+    flex: 1;
+    padding: 20px;
+}
+
+.sub-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.sub-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd; /* Colore di sfondo di default */
+    position: relative; /* Posizione relativa per posizionare le immagini */
+}
+
+.sub-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ridimensiona le immagini senza deformarle */
+    position: absolute; /* Posizionamento assoluto per centrare */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra orizzontalmente */
+    transform: translate(-50%, -50%); /* Sposta l'immagine al centro */
+}
+
+.green-bg, .dark-red-bg {
+    position: relative; /* Perché l'immagine abbia una posizione relativa */
+    padding-bottom: calc(100% - 20px); /* Altezza del cubo - 20px per il padding */
+}
+
+.middle {
+    text-align: center;
+}
+
+.middle img {
+    max-width: 100px;
+}
+
+.middle hr {
+    width: 50%;
+    margin: 10px auto;
+}
+
+
+.size-cube-image{
+    width: 60%;
+}
+
+
+
+
+/* +COLORI DEI CUBI */
+
+.bg-green{
+    background-color: rgb(149, 236, 149);
+    border: rgb(190, 236, 190) 4px solid;
+}
