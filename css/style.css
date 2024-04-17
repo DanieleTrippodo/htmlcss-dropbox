@@ -594,3 +594,47 @@ h2, p {
 
 
 
+/* ! FAQ ---------------------------------------------------- */
+.faq {
+    margin: 20px;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.faq-title {
+    text-align: center;
+}
+
+.faq-hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+}
+
+.toggle-button {
+    float: right;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 1.2em;
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+
+.open .arrow {
+    transform: rotate(-90deg);
+}
