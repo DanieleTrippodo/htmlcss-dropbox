@@ -517,6 +517,12 @@ section.subscription-plans > input {
 }
 
 
+.space-aroud{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
 
 
 /* !--------------------------QUADRATO------------------------------------------------ */
@@ -525,38 +531,39 @@ section.subscription-plans > input {
 }
 
 
-.left, .middle, .right {
-    flex: 1;
-    padding: 20px;
+.left, .middle, .right {                                                        /* ! i margini del cubo rigt non corrispondono... */
+    flex: 1;                                                    
+    /* padding: 20px; */
+    background-color: rgb(240, 240, 240);
 }
 
 .sub-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
 }
 
 .sub-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ddd; /* Colore di sfondo di default */
-    position: relative; /* Posizione relativa per posizionare le immagini */
+    background-color: #ddd; /* colore di sfondo di default */
+    position: relative;
 }
 
 .sub-item img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* Ridimensiona le immagini senza deformarle */
-    position: absolute; /* Posizionamento assoluto per centrare */
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra orizzontalmente */
-    transform: translate(-50%, -50%); /* Sposta l'immagine al centro */
+    object-fit: contain; /* ridimensiona le immagini senza deformarle */
+    position: absolute; /* posizionamento assoluto per centrare */
+    top: 50%; /* centra verticalmente */
+    left: 50%; /* centra orizzontalmente */
+    transform: translate(-50%, -50%); /* sposta l'immagine al centro */
 }
 
-.green-bg {
-    position: relative; /* Perché l'immagine abbia una posizione relativa */
-    padding-bottom: calc(100% - 20px); /* Altezza del cubo - 20px per il padding */
+.bg-space {
+    position: relative;
+    padding-bottom: calc(100% - 20px); /* altezza del cubo - 20px per il padding */
 }
 
 .middle {
@@ -564,12 +571,25 @@ section.subscription-plans > input {
 }
 
 .middle img {
-    max-width: 100px;
+    max-width: 50%;
+    display: flex;
+    margin: 2rem;
 }
 
 .middle hr {
-    width: 50%;
-    margin: 10px auto;
+    width: 20%;
+    margin: 2rem;
+    display: flex;
+
+}
+
+.descrizione-cube{
+    display: flex;
+    margin: 2rem;
+}
+
+.firma-cube{
+    margin-top: 4rem;
 }
 
 
@@ -577,14 +597,44 @@ section.subscription-plans > input {
     width: 60%;
 }
 
+.sub-item img { /* per selezionare tutte le immagini dentro i quadrati */                                                       /* ! perchè non funziona? */
+    filter: grayscale(100%) brightness(100%) /* in questo modo applico un filtro bianco all'immagine */
+}
+    
+
 
 
 
 /* +COLORI DEI CUBI */
 
 .bg-green{
-    background-color: rgb(149, 236, 149);
-    border: rgb(190, 236, 190) 4px solid;
+    background-color: rgb(166, 224, 166);
+    border: rgb(202, 236, 202) 20px solid;
+    color: white;
+}
+
+.bg-darkred{
+    background-color: rgb(70, 6, 6);
+}
+
+.bg-heavenly{
+    background-color: #0b80e0;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-lightblue{
+    background-color: #bedcff;
+}
+
+.bg-heavyblue{
+    background-color: rgb(0, 0, 73);
+}
+
+.bg-yellow{
+    background-color: rgb(255, 217, 0);
 }
 
 /* !--------------------------QUADRATO------------FINE----------------------------------- */
