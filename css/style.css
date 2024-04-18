@@ -127,6 +127,7 @@ button{
 
 #jumbotron{
     background-color: #bedcff;
+    height: 690px;
 }
 
 
@@ -147,7 +148,7 @@ button{
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: row-reverse;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -155,9 +156,19 @@ button{
 
 
 #jumbo-image{
-    max-width: 65%;
-    padding-top: 3rem;
+    max-width: 75.9%;
+    position: relative;
+    top: 40px;
 }
+
+
+
+.vertical-box-jumbo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 
 
 
@@ -189,7 +200,17 @@ button{
 }
 
 
+.fa-arrow-down{
+    font-size: 45px;
+    margin-bottom: 2.8rem;
+}
 
+
+.descrizione{
+    font-size: 16px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 
 
 .title2{
