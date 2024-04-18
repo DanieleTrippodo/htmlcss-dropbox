@@ -76,6 +76,22 @@ button{
 .no-left-margin{
     margin-left: 0;
 }
+
+
+.white-button{
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+
+.long{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
 /* todo BOTTONI FINE --------------------------------------- */
 
 
@@ -517,12 +533,19 @@ section.subscription-plans > input {
 }
 
 
-.space-aroud{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+.space-top{
+    margin-top: 9rem;
 }
 
 
+.space-bottom{
+    margin-bottom: 9rem;
+}
+
+
+.brown-color{
+    color: rgb(49, 24, 24);
+}
 
 
 /* !--------------------------QUADRATO------------------------------------------------ */
