@@ -621,7 +621,7 @@ section.subscription-plans > input {
 }
 
 .sub-item img { /* per selezionare tutte le immagini dentro i quadrati */                                                       /* ! perchè non funziona? */
-    filter: grayscale(100%) brightness(100%) /* in questo modo applico un filtro bianco all'immagine */
+    filter: invert(1) /* in questo modo applico un filtro bianco all'immagine */
 }
     
 
